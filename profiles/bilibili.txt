@@ -1,0 +1,27 @@
+# Netscape HTTP Cookie File
+.bilibili.com	TRUE	/	False	1814879654	buvid3	3B250037-071F-8630-BF4E-A7C59FE9088854738infoc
+.bilibili.com	TRUE	/	False	1814879654	b_nut	1783343654
+.bilibili.com	TRUE	/	False	1814879655	_uuid	967BFA7D-93E5-1014F-71010D-2516C92710F9C55135infoc
+.bilibili.com	TRUE	/	False	1814914892	home_feed_column	4
+.bilibili.com	TRUE	/	False	1814914892	browser_resolution	1086-713
+.bilibili.com	TRUE	/	False	1817903655	buvid_fp	5ada06aee68e92e37ef171b1399a76b4
+.bilibili.com	TRUE	/	False	1817938893	buvid4	61983465-876B-A258-EED5-7DF3F559FC0E56161-026070621-AkPCSsmJheRP4iISve5WMaEqtUFsbGDhUrJVfOhqSbIH8rurbNhao3lSwwc4aqHA
+.bilibili.com	TRUE	/	False	1783602856	bili_ticket	eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODM2MDI4NTYsImlhdCI6MTc4MzM0MzU5NiwicGx0IjotMX0.wc2xP_5RSrWhNpZwCB5IBhDvSwVvLTNnm5S6vzwltX8
+.bilibili.com	TRUE	/	False	1783602856	bili_ticket_expires	1783602796
+.bilibili.com	TRUE	/	True	1798895780	SESSDATA	18249c97%2C1798895780%2C0f2c0%2A72CjCpLSg0q2zzqttTMNJYD2lR8OCxM6co5eTt-T-OKbqf7RAVLJ1Bzh2PIv4WPmG3a-cSVkgwWmFHWFB2RTQ4dWZxb2pWTVgzRF95eVE4dy1ISWxDano5S05mcUhGeVZZeWhMLTNnZWtUZFBqcVN3TENxSDdlaHZrdkFyLVp2c2hwTjhOQ2ZwYlJBIIEC
+.bilibili.com	TRUE	/	True	1798895780	bili_jct	99a3ceb7fb022f6ad65179760bb59d7a
+.bilibili.com	TRUE	/	True	1798895780	DedeUserID	437551796
+.bilibili.com	TRUE	/	True	1798895780	DedeUserID__ckMd5	eb032194675d9bb0
+.bilibili.com	TRUE	/	True	1798895780	sid	fqeyvwpd
+.bilibili.cn	TRUE	/	True	1798895780	SESSDATA	18249c97%2C1798895780%2C0f2c0%2A72CjCvEPjk5hIu-UQfpWFfY-lHxK1TZOX2ZYQSX7SpJOHllXcSMnwD254wV2tdb3Rfz_sSVkVUVi1zU0NnT1hLc1VLaTlHRjJHRjhxa3BhWkNXR1VSUUNaM3VSM2xHdy1LTWNSME5scmYxczBnaDRKN1JEYm03WWFLVE90UnJsN0pJVFNGUEtaYld3IIEC
+.bilibili.cn	TRUE	/	True	1798895780	bili_jct	99a3ceb7fb022f6ad65179760bb59d7a
+.bilibili.cn	TRUE	/	True	1798895780	DedeUserID	437551796
+.bilibili.cn	TRUE	/	True	1798895780	DedeUserID__ckMd5	eb032194675d9bb0
+.bilibili.cn	TRUE	/	True	1798895780	sid	gq93xea1
+.bilibili.com	TRUE	/	False	1814914892	theme-tip-show	SHOWED
+.bilibili.com	TRUE	/	False	1814879787	theme-avatar-tip-show	SHOWED
+.bilibili.com	TRUE	/	False	1814879790	theme-switch-show	SHOWED
+www.bilibili.com	FALSE	/	False	0	bmg_af_switch	1
+www.bilibili.com	FALSE	/	False	0	bmg_src_def_domain	i0.hdslb.com
+www.bilibili.com	FALSE	/	False	0	bmg_af_sc	{"none":{"on":1,"def":"i0.hdslb.com"},"sgp":{"on":1,"def":"i0-sgp.hdslb.com"}}
+.bilibili.com	TRUE	/	False	0	b_lsid	D2150A1C_19F39AA592B

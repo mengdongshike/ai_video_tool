@@ -1,0 +1,35 @@
+{
+  "name": "LatentSync",
+  "deps": {
+    "fastapi": {"pip": "fastapi", "ver": ""},
+    "uvicorn": {"pip": "uvicorn", "ver": ""},
+    "numpy": {"pip": "numpy", "ver": "1.26.4"},
+    "librosa": {"pip": "librosa", "ver": "0.10.1"},
+    "transformers": {"pip": "transformers", "ver": "4.48.0"},
+    "diffusers": {"pip": "diffusers", "ver": "0.32.2"},
+    "cv2": {"pip": "opencv-python", "ver": "4.9.0"},
+    "einops": {"pip": "einops", "ver": "0.7.0"},
+    "omegaconf": {"pip": "omegaconf", "ver": "2.3.0"},
+    "accelerate": {"pip": "accelerate", "ver": "0.26.1"},
+    "PIL": {"pip": "Pillow", "ver": ""},
+    "kornia": {"pip": "kornia", "ver": "0.8.0"},
+    "insightface": {"pip": "insightface", "ver": ""},
+    "lpips": {"pip": "lpips", "ver": ""},
+    "decord": {"pip": "decord", "ver": "0.6.0"},
+    "matplotlib": {"pip": "matplotlib", "ver": ""},
+    "ffmpeg": {"pip": "ffmpeg-python", "ver": "0.2.0"},
+    "DeepCache": {"pip": "DeepCache", "ver": ""},
+    "imageio_ffmpeg": {"pip": "imageio[ffmpeg]", "ver": "0.6.0"},
+    "onnxruntime": {"pip": "onnxruntime-gpu", "ver": "1.23.2"}
+  },
+  "torch": {
+    "11.8": "pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu118",
+    "12.1": "pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121",
+    "12.4": "pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124",
+    "12.6": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128",
+    "12.8": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128",
+    "12.9": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128",
+    "13.0": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128",
+    "13.1": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128"
+  }
+}

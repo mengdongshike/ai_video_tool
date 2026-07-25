@@ -1,0 +1,68 @@
+@echo off
+chcp 65001 >nul
+title AI 口播工坊 - 环境安装
+
+set PROJECT_ROOT=%~dp0..
+set HOST_PYTHON=F:\YYKA\Server\python\python.exe
+
+echo ═══════════════════════════════════════
+echo   AI 口播工坊 - 环境安装脚本
+echo ═══════════════════════════════════════
+echo.
+
+:: 1. 环境检测
+echo [1/5] 正在检测环境...
+"%HOST_PYTHON%" "%PROJECT_ROOT%\scripts\check_env.py"
+if %ERRORLEVEL% NEQ 0 (
+    echo ❌ Python 不可用，请确认路径: %HOST_PYTHON%
+    pause
+    exit /b 1
+)
+
+:: 2. 创建 venv_tts
+echo.
+echo [2/5] 创建 IndexTTS2 虚拟环境...
+if exist "%PROJECT_ROOT%\venv_tts" (
+    echo ✅ venv_tts 已存在，跳过
+) else (
+    "%HOST_PYTHON%" -m venv "%PROJECT_ROOT%\venv_tts"
+    echo ✅ venv_tts 创建完成
+)
+
+:: 3. 安装 IndexTTS2 依赖
+echo.
+echo [3/5] 安装 IndexTTS2 依赖...
+call "%PROJECT_ROOT%\venv_tts\Scripts\activate.bat"
+pip install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128
+pip install -e "%PROJECT_ROOT%\models\indextts2" --no-build-isolation
+pip install fastapi uvicorn
+deactivate
+
+:: 4. 创建 venv_latent
+echo.
+echo [4/5] 创建 LatentSync 虚拟环境...
+if exist "%PROJECT_ROOT%\venv_latent" (
+    echo ✅ venv_latent 已存在，跳过
+) else (
+    "%HOST_PYTHON%" -m venv "%PROJECT_ROOT%\venv_latent"
+    echo ✅ venv_latent 创建完成
+)
+
+:: 5. 安装 LatentSync 依赖
+echo.
+echo [5/5] 安装 LatentSync 依赖...
+call "%PROJECT_ROOT%\venv_latent\Scripts\activate.bat"
+pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+pip install -r "%PROJECT_ROOT%\checkpoints\latentsync\requirements.txt"
+pip install fastapi uvicorn
+deactivate
+
+echo.
+echo ═══════════════════════════════════════
+echo   ✅ 环境安装完成！
+echo.
+echo   启动方式：
+echo     1. cd ElectronClient ^&^& npm start
+echo     2. 或直接运行 electron .
+echo ═══════════════════════════════════════
+pause

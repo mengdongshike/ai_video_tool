@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "industries": [
+    {
+      "id": "food",
+      "name": "餐饮美食",
+      "icon": "🍜",
+      "styles": ["口语闲聊风", "犀利通透风", "治愈共情风"],
+      "personas": ["路边摊老板", "探店达人", "家庭主厨"],
+      "prompt": "你是一个短视频口播文案创作者。\n行业：{industry}\n风格：{style}\n人设：{persona}\n\n要求：\n- 用{persona}的口吻，{style}的风格\n- 开头3秒抓眼球，中间有案例，结尾引导互动\n- 字数控制在{length}字以内\n- 自然地融入品牌词：{brand_words}\n\n主题：{topic}\n\n请直接输出文案正文，不要额外说明。"
+    },
+    {
+      "id": "edu",
+      "name": "教育培训",
+      "icon": "📚",
+      "styles": ["干货落地风", "治愈共情风", "真诚走心风"],
+      "personas": ["一线教师", "学霸学长", "培训机构讲师"],
+      "prompt": "你是一个知识类短视频口播文案创作者。\n行业：{industry}\n风格：{style}\n人设：{persona}\n\n要求：\n- 用{persona}的身份，{style}地讲述\n- 先抛出痛点/误区，再给解决方案\n- 信息密度高，但语言通俗\n- 字数{length}字左右\n- 品牌词：{brand_words}\n\n主题：{topic}\n\n直接输出文案。"
+    },
+    {
+      "id": "fashion",
+      "name": "时尚美妆",
+      "icon": "💄",
+      "styles": ["幽默自嘲风", "犀利通透风", "口语闲聊风"],
+      "personas": ["美妆博主", "穿搭达人", "素人改造师"],
+      "prompt": "你是一个时尚美妆短视频口播文案创作者。\n行业：{industry}\n风格：{style}\n人设：{persona}\n\n要求：\n- 用{persona}的口吻，{style}地分享\n- 先展示效果/对比，再讲方法\n- 语气真实不浮夸，像朋友安利\n- 字数{length}字\n- 品牌词：{brand_words}\n\n主题：{topic}\n\n直接输出文案。"
+    },
+    {
+      "id": "fitness",
+      "name": "健身运动",
+      "icon": "💪",
+      "styles": ["干货落地风", "犀利通透风", "幽默自嘲风"],
+      "personas": ["健身教练", "减肥成功者", "运动爱好者"],
+      "prompt": "你是一个健身类短视频口播文案创作者。\n行业：{industry}\n风格：{style}\n人设：{persona}\n\n要求：\n- 用{persona}的真实经历切入\n- 先讲误区/反常识，再给正确方法\n- 带有动作引导感，让观众能跟着做\n- 字数{length}字\n- 品牌词：{brand_words}\n\n主题：{topic}\n\n直接输出文案。"
+    },
+    {
+      "id": "real_estate",
+      "name": "房产置业",
+      "icon": "🏠",
+      "styles": ["干货落地风", "真诚走心风", "犀利通透风"],
+      "personas": ["房产中介", "投资客", "刚需购房者"],
+      "prompt": "你是一个房产类短视频口播文案创作者。\n行业：{industry}\n风格：{style}\n人设：{persona}\n\n要求：\n- 用{persona}的视角，{style}地分析\n- 开头直接抛观点/数据，建立信任\n- 分析趋势或避坑指南，给出可操作建议\n- 字数{length}字\n- 品牌词：{brand_words}\n\n主题：{topic}\n\n直接输出文案。"
+    }
+  ]
+}

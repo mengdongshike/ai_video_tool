@@ -1,0 +1,51 @@
+# 模型权重 - 超大文件不提交
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Python 环境
+venv_tts/
+venv_latent/
+python/
+*.pyc
+__pycache__/
+
+# 二进制工具
+ffmpeg/
+
+# 生成文件
+outputs/
+uploads/
+*.mp4
+*.wav
+*.mp3
+*.srt
+*.jpg
+*.png
+
+# 数据库
+data/app.db
+data/app.db-journal
+data/app.db-wal
+
+# 临时文件
+temp/
+*.tmp
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 密钥
+data/settings.json
+
+# Node
+node_modules/
+models/social-auto-upload/
+fonts/

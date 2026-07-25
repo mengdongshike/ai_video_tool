@@ -1,0 +1,33 @@
+{
+  "name": "IndexTTS2",
+  "deps": {
+    "fastapi": {"pip": "fastapi", "ver": ""},
+    "uvicorn": {"pip": "uvicorn", "ver": ""},
+    "numpy": {"pip": "numpy", "ver": "1.26.2"},
+    "librosa": {"pip": "librosa", "ver": "0.10.2.post1"},
+    "transformers": {"pip": "transformers", "ver": "4.52.1"},
+    "omegaconf": {"pip": "omegaconf", "ver": ""},
+    "safetensors": {"pip": "safetensors", "ver": "0.5.2"},
+    "accelerate": {"pip": "accelerate", "ver": "1.8.1"},
+    "einops": {"pip": "einops", "ver": ""},
+    "json5": {"pip": "json5", "ver": ""},
+    "sentencepiece": {"pip": "sentencepiece", "ver": ""},
+    "munch": {"pip": "munch", "ver": "4.0.0"},
+    "PIL": {"pip": "Pillow", "ver": ""},
+    "matplotlib": {"pip": "matplotlib", "ver": ""},
+    "skimage": {"pip": "scikit-image", "ver": ""},
+    "audiotools": {"pip": "descript-audiotools", "ver": "0.7.2"},
+    "wetext": {"pip": "wetext", "ver": ""},
+    "modelscope": {"pip": "modelscope", "ver": ""}
+  },
+  "torch": {
+    "11.8": "pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu118",
+    "12.1": "pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121",
+    "12.4": "pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124",
+    "12.6": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128",
+    "12.8": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128",
+    "12.9": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu129",
+    "13.0": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128",
+    "13.1": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128"
+  }
+}
